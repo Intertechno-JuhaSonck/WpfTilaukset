@@ -13,6 +13,12 @@ namespace WpfTilaukset
         public string TuoteNimi { get; set; }
         public int Maara { get; set; }
         public decimal AHinta { get; set; }
+        public decimal Summa { get; set; }
+        public decimal RiviSumma()
+        {
+            Summa = AHinta * Maara;
+            return Summa;
+        }
 
     }
 }

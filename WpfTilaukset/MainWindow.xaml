@@ -11,9 +11,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="142" Margin="345,10,0,0" VerticalAlignment="Top" Width="625">
-            <Button x:Name="btnLisaaRivi" Content="Lisää rivi" HorizontalAlignment="Left" Height="37" Margin="405,94,0,0" VerticalAlignment="Top" Width="92" FontSize="16" Click="btnLisaaRivi_Click"/>
-        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="144" Margin="345,10,0,0" VerticalAlignment="Top" Width="625"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="480" Margin="20,10,0,0" VerticalAlignment="Top" Width="320"/>
         <TextBox x:Name="txtTilausNumero" HorizontalAlignment="Left" Height="36" Margin="35,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="14"/>
         <TextBox x:Name="txtAsiakasNumero" HorizontalAlignment="Left" Height="36" Margin="35,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="14"/>
@@ -25,7 +23,7 @@
         <Label x:Name="lblToimitusOsoite" Content="Toimitusosoite" HorizontalAlignment="Left" Margin="36,210,0,0" VerticalAlignment="Top" Height="26" Width="87"/>
         <DatePicker x:Name="dpTilausPvm" HorizontalAlignment="Left" Margin="36,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.875,9.344" Width="286" Height="41" FirstDayOfWeek="Monday" FontSize="16"/>
         <Label x:Name="lblTilausPvm" Content="Tilauspvm" HorizontalAlignment="Left" Margin="36,276,0,0" VerticalAlignment="Top" Height="26" Width="63"/>
-        <Button x:Name="btnTallenna" Content="Tallenna" HorizontalAlignment="Left" Height="38" Margin="36,437,0,0" VerticalAlignment="Top" Width="138" FontSize="16" Click="btnTallenna_Click"/>
+        <Button x:Name="btnTallenna" Content="Luo tilaus" HorizontalAlignment="Left" Height="38" Margin="36,437,0,0" VerticalAlignment="Top" Width="138" FontSize="16" Click="btnTallenna_Click"/>
         <DatePicker x:Name="dpToimitusPvm" HorizontalAlignment="Left" Margin="36,380,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.875,9.344" Width="286" Height="41" FirstDayOfWeek="Monday" FontSize="16"/>
         <Label x:Name="lblToimitusPvm" Content="Toimituspvm" HorizontalAlignment="Left" Margin="39,353,0,0" VerticalAlignment="Top" Height="26" Width="77"/>
         <TextBox x:Name="txtToimitusAika" HorizontalAlignment="Left" Height="36" Margin="223,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99"/>
@@ -39,6 +37,9 @@
         <Label x:Name="lblAHinta" Content="Hinta" HorizontalAlignment="Left" Margin="432,79,0,0" VerticalAlignment="Top"/>
         <DataGrid x:Name="dgTilausRivit" HorizontalAlignment="Left" Height="321" Margin="345,169,0,0" VerticalAlignment="Top" Width="625"/>
         <Label x:Name="lblTuoteNumero" Content="Tuotenumero" HorizontalAlignment="Left" Margin="351,12,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnLisaaRivi" Content="Lisää rivi" HorizontalAlignment="Left" Height="37" Margin="752,102,0,0" VerticalAlignment="Top" Width="92" FontSize="16" Click="btnLisaaRivi_Click"/>
+        <TextBox x:Name="txtRiviSumma" HorizontalAlignment="Left" Height="36" Margin="858,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" FontSize="16" Focusable="False" IsEnabled="False" FontWeight="Bold"/>
+        <Label x:Name="lblSumma" Content="Summa" HorizontalAlignment="Left" Margin="858,10,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
