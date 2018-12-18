@@ -56,7 +56,7 @@ namespace WpfTilaukset
         {
             TimeSpan erotus;
             erotus = ToimitusPvm.Subtract(tilausPvm);
-            return erotus.ToString();
+            return erotus.Days.ToString();
         }
     }
 }
