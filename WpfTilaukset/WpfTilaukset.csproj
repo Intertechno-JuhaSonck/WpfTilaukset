@@ -67,6 +67,8 @@
     <Compile Include="Asiakkaat.cs">
       <DependentUpon>TilausDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="cbPairAsiakas.cs" />
+    <Compile Include="cbPairTuote.cs" />
     <Compile Include="Postitoimipaikat.cs">
       <DependentUpon>TilausDBModel.tt</DependentUpon>
     </Compile>

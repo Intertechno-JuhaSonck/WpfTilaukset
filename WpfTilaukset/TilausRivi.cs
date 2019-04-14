@@ -9,7 +9,8 @@ namespace WpfTilaukset
     class TilausRivi
     {
         public int TilausNumero { get; set; }
-        public string TuoteNumero { get; set; }
+        public int TilausRiviNumero { get; set; }
+        public int TuoteNumero { get; set; }
         public string TuoteNimi { get; set; }
         public int Maara { get; set; }
         public decimal AHinta { get; set; }

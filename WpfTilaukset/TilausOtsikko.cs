@@ -10,11 +10,10 @@ namespace WpfTilaukset
     {
         private DateTime tilausPvm;
         private DateTime toimitusPvm;
-        public int Lkm; 
         public int TilausNumero { get; set; }
-        public string AsiakkaanNimi { get; set; }
         public int AsiakasNumero { get; set; }
         public string ToimitusOsoite { get; set; }
+        public string Postinumero { get; set; }
         public DateTime TilausPvm {
             get
             {
